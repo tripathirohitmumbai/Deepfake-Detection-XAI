@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.success-message {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.success-message h1 {
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.success-message p {
+  color: #333333;
+  font-size: 16px;
+}
+.responsive-paragraph {
+  display: flex;
+  justify-content: space-between;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #287b7c;
+  color: black;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1.5px solid #000;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-div{
+  padding-left: 240px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) { 
+  .css-2dum1v-MuiDrawer-docked .MuiDrawer-paper {
+    display: none !important;
+  }
+  .main-div{
+    display: none;
+  }
+ .logbtn{
+    display: none;
+  }
+  .css-1l8j5k8{
+    display: none !important;
+  }
+  .css-1hpovr5{
+    width: 80% !important;
+  }
+  .css-k94ob6-MuiTypography-root{
+    width: 80% !important;
+  }
+  .css-1kcrktc{
+    width: 80% !important;
+  }
+  .MuiTypography-root .MuiTypography-h6 .MuiTypography-gutterBottom .css-1kcrktc{
+    width: 80% !important;
+  }
+  
+  h1.MuiTypography-root.MuiTypography-h4.css-thhjv0 {
+    font-size: 26px !important;
+}
+h1.MuiTypography-root.MuiTypography-h6.css-1hfla7 {
+  font-size: 18px !important;
+}
+.responsive-paragraph {
+  flex-direction: column;
+  align-items: center;
+}
+
+.responsive-paragraph span {
+  margin-bottom: 10px;
+}
+}

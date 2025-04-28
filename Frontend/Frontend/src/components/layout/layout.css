@@ -1,0 +1,7 @@
+.main-div {
+    left: -260px;
+}
+
+.main-div.expanded {
+    padding-left: 240px;
+}
