@@ -1,11 +1,5 @@
 # Deepfake Detection with Explainable AI
 
-**Author:** Rohit Tripathi  
-**Master’s Project | California State University, Sacramento**  
-**Committee Chair:** Dr. Syed Badruddoja  
-**Second Reader:** Dr. Anna Baynes  
-**Semester:** Spring 2025
-
 ---
 
 ## 📚 Overview
@@ -127,5 +121,4 @@ A full demo video showcasing the application usage, detection results, and expla
 
 ---
 
-# ✅ This README provides complete documentation, training, testing, datasets, and model details for the project.
 
