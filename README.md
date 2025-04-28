@@ -119,6 +119,13 @@ The models were trained using the following public datasets:
 (*Datasets require request/access from official sources and are not uploaded due to size and license constraints.*)
 
 ---
+## 👀 Project Demonstration
+
+A full demo video showcasing the application usage, detection results, and explainable AI outputs is available:
+
+🔗 [Watch Project Demo Video](https://www.loom.com/share/56a7f598998a41448f244aef27de84cd?sid=f2df2c02-deab-485a-b13a-22ea74ab42c6)
+
+---
 
 # ✅ This README provides complete documentation, training, testing, datasets, and model details for the project.
 
